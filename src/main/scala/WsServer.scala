@@ -4,7 +4,7 @@ import akka.stream.{ActorMaterializer}
 
 import scala.util.{Failure, Success}
 
-object Main extends App {
+object WsServer extends App {
   val host = "localhost"
   val port = 9000
 
