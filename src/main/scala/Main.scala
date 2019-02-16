@@ -5,7 +5,7 @@ import akka.stream.{ActorMaterializer}
 import scala.util.{Failure, Success}
 
 object Main extends App {
-  val host = "localhost"//"0.0.0.0"
+  val host = "localhost"
   val port = 9000
 
   implicit val system: ActorSystem = ActorSystem(name = "jsonWs")
